@@ -31,6 +31,14 @@ body {
 	text-transform: uppercase;
 }
 
+.alpha {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	color: #fff;
+	font-size: 1.25em;
+}
+
 @keyframes pulse {
 	0%{font-size: 1em;}
 	30%{font-size: 1.25em;}
