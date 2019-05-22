@@ -1,0 +1,28 @@
+._onbottomcenter{
+	position: absolute !important;
+	bottom: 10px;
+	left: 50%;
+	transform: translate(-50%);
+}
+
+._oncolumn {
+	display: flex;
+	flex-direction: column !important;
+}
+
+._hidetop {
+	position: absolute !important;
+	top: -9900px;
+}
+
+._oncenter{
+	position: absolute !important;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	transition: 300ms;
+}
+
+._onvh100 {
+	height: 100vh !important;
+}

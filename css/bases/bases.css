@@ -1,0 +1,40 @@
+body {
+	background-color: #263238;
+	font-family: 'Roboto', sans-serif;
+}
+
+.myapp-title {
+	font-size: 2.25em;
+	color: #fff;
+	padding: 20px;
+	font-weight: bold;
+}
+
+.myapp-subtitle {
+	font-size: 1.25em;
+	color: #f5f5f5;
+}
+
+.heart{
+	color: #d50000;
+	font-size: 1.25em;
+	cursor: pointer;
+	margin: 10px;
+}
+
+.heart:hover{
+	animation: pulse linear 1s;
+}
+
+.mygit-link {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+@keyframes pulse {
+	0%{font-size: 1em;}
+	30%{font-size: 1.25em;}
+	50%{font-size: 1em;}
+	70%{font-size: 1.25em;}
+	100%{font-size: 1em;}
+}

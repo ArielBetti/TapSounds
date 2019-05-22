@@ -1,0 +1,80 @@
+.-color1 {
+	background-color: #ba68c8;
+	transition: 200ms;
+}
+
+.-color1:hover {
+	box-shadow: 0px 0px 10px 0px #ba68c8;
+}
+
+.-color2 {
+	background-color: #b39ddb;
+	transition: 200ms;
+}
+
+.-color2:hover {
+	box-shadow: 0px 0px 10px 0px #b39ddb;
+}
+
+.-color3 {
+	background-color: #9fa8da;
+	transition: 200ms;
+}
+
+.-color3:hover {
+	box-shadow: 0px 0px 10px 0px #9fa8da;
+}
+
+.-color4 {
+	background-color: #ba68c8;
+	transition: 200ms;
+}
+
+.-color4:hover {
+	box-shadow: 0px 0px 10px 0px #ba68c8;
+}
+
+.-color5 {
+	background-color: #9575cd;
+	transition: 200ms;
+}
+
+.-color5:hover {
+	box-shadow: 0px 0px 10px 0px #9575cd;
+}
+
+.-color6 {
+	background-color: #7986cb;
+	transition: 200ms;
+}
+
+.-color6:hover {
+	box-shadow: 0px 0px 10px 0px #7986cb;
+}
+
+.-color7 {
+	background-color: #ab47bc;
+	transition: 200ms;
+}
+
+.-color7:hover {
+	box-shadow: 0px 0px 10px 0px #ab47bc;
+}
+
+.-color8 {
+	background-color: #7e57c2;
+	transition: 200ms;
+}
+
+.-color8:hover {
+	box-shadow: 0px 0px 10px 0px #7e57c2;
+}
+
+.-color9 {
+	background-color: #5c6bc0;
+	transition: 200ms;
+}
+
+.-color9:hover {
+	box-shadow: 0px 0px 10px 0px #5c6bc0;
+}

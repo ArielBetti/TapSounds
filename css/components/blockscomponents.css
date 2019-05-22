@@ -1,0 +1,42 @@
+.myapp-blocks {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin-top: 10px;
+}
+
+.tapblock {
+	width: 220px;
+	height: 220px;
+	margin: 3px;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.myapp-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	position: relative;
+	transition: 400ms;
+}
+
+@media(max-width: 710px) {
+	.tapblock {
+		width: 150px;
+		height: 150px;
+	}
+}
+
+@media(max-width: 470px) {
+	.tapblock {
+		width: 95px;
+		height: 95px;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+	}
+}
