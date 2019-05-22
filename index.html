@@ -30,7 +30,9 @@
 </head>
 
 <body>
-
+    <div class="alpha">
+        <h2>Alpha Teste 0.1</h2>
+    </div>
     <header>
         <section class="myapp-header" id="headercontainer">
             <div class="howtoplay-header">
@@ -49,21 +51,21 @@
         <section class="myapp-blocks _hidetop" id="gamecontainer">
 
             <div>
-                <div class="tapblock -color1"></div>
-                <div class="tapblock -color2"></div>
-                <div class="tapblock -color3"></div>
+                <div id="loop1" class="tapblock -color1">Loop</div>
+                <div id="tap1" class="tapblock -color2">Hit</div>
+                <div id="long1" class="tapblock -color3">Long</div>
             </div>
 
             <div>
-                <div class="tapblock -color4"></div>
-                <div class="tapblock -color5"></div>
-                <div class="tapblock -color6"></div>
+                <div id="loop2" class="tapblock -color4">Loop</div>
+                <div id="tap2" class="tapblock -color5">Hit</div>
+                <div id="long2" class="tapblock -color6">Long</div>
             </div>
 
             <div>
-                <div class="tapblock -color7"></div>
-                <div class="tapblock -color8"></div>
-                <div class="tapblock -color9"></div>
+                <div id="loop3" class="tapblock -color7">Loop</div>
+                <div id="tap3" class="tapblock -color8">Hit</div>
+                <div id="long3" class="tapblock -color9">Long</div>
             </div>
 
         </section>
@@ -77,8 +79,19 @@
         </div>
     </footer>
 
-    <script type="text/javascript" src="js/jquery.js"></script>
+    <audio id="playloop1" src="sounds/loop.wav"></audio>
+    <audio id="playloop2" src="sounds/loop2.wav"></audio>
+    <audio id="playloop3" src="sounds/loop3.wav"></audio>
+    <audio id="playtap1" src="sounds/Tap.wav"></audio>
+    <audio id="playtap2" src="sounds/tap2.wav"></audio>
+    <audio id="playtap3" src="sounds/Tap3.wav"></audio>
+    <audio id="playlong1" src="sounds/long.wav"></audio>
+    <audio id="playlong2" src="sounds/long2.wav"></audio>
+    <audio id="playlong3" src="sounds/long3.wav"></audio>
+
     <script type="text/javascript" src="js/main.js"></script>
+
+
 </body>
 
 </html>
